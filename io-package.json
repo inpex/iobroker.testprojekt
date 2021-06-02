@@ -1,0 +1,77 @@
+{
+	"common": {
+		"name": "testprojekt",
+		"version": "0.0.1",
+		"news": {
+			"0.0.1": {
+				"en": "initial release",
+				"de": "Erstveröffentlichung",
+				"ru": "Начальная версия",
+				"pt": "lançamento inicial",
+				"nl": "Eerste uitgave",
+				"fr": "Première version",
+				"it": "Versione iniziale",
+				"es": "Versión inicial",
+				"pl": "Pierwsze wydanie",
+				"zh-cn": "首次出版"
+			}
+		},
+		"titleLang": {
+			"en": "y",
+			"de": "ja",
+			"ru": "у",
+			"pt": "y",
+			"nl": "ja",
+			"fr": "oui",
+			"it": "sì",
+			"es": "y",
+			"pl": "tak",
+			"zh-cn": "是"
+		},
+		"desc": {
+			"en": "testprojekt",
+			"de": "Testprojekt",
+			"ru": "тестпроект",
+			"pt": "testprojekt",
+			"nl": "testproject",
+			"fr": "projet de test",
+			"it": "testprojekt",
+			"es": "proyecto de prueba",
+			"pl": "projekt testowy",
+			"zh-cn": "测试项目"
+		},
+		"authors": [
+			"Scheffi <info@scheffi.eu>"
+		],
+		"keywords": [
+			"ioBroker",
+			"template",
+			"Smart Home",
+			"home automation"
+		],
+		"license": "MIT",
+		"platform": "Javascript/Node.js",
+		"icon": "testprojekt.png",
+		"enabled": true,
+		"extIcon": "https://raw.githubusercontent.com/inpex/ioBroker.testprojekt/master/admin/testprojekt.png",
+		"readme": "https://github.com/inpex/ioBroker.testprojekt/blob/master/README.md",
+		"loglevel": "info",
+		"mode": "daemon",
+		"type": "hardware",
+		"compact": true,
+		"connectionType": "cloud",
+		"dataSource": "poll",
+		"materialize": true,
+		"dependencies": [
+			{
+				"js-controller": ">=2.0.0"
+			}
+		]
+	},
+	"native": {
+		"option1": true,
+		"option2": "42"
+	},
+	"objects": [],
+	"instanceObjects": []
+}
